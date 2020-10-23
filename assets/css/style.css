@@ -1,0 +1,221 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+    padding: 0 8px;
+
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    height: 13px;
+}
+
+nav ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* NAV COMO LINK */
+/* 
+nav a, ul {
+    text-decoration: none;
+    list-style: none;
+
+    color: #252525;
+    font-weight: 500;
+    font-size: .9rem;
+
+    margin-right: 1vw;
+} */
+
+/* NAV COMO SPAN */
+nav span, ul {
+    text-decoration: none;
+    list-style: none;
+
+    color: #252525;
+    font-weight: 500;
+    font-size: .9rem;
+
+    margin-right: 1vw;
+}
+
+li {
+    cursor: pointer;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+.sessao {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.model-y {
+    height: 90vh;
+}
+
+.model-y .section-title{
+    margin-top: 5vh;
+}
+
+.section-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.section-title * {
+    margin: 0;
+}
+
+.section-title h1{
+    color: #3e4042;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.section-title h3{
+    color: #7a7d81;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1vh;
+}
+
+.section-title a{
+    color: #5c5e62;
+    border-bottom: 2px solid #5c5e62;
+}
+
+
+
+.section-buttons{
+    align-self: flex-end;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 530px;
+
+    margin-bottom: 10vh;
+
+}
+
+
+.accessories .section-buttons{
+    width: 100%;
+    justify-content: center;
+}
+
+.section-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 45px;
+    width: 250px;
+
+    border-radius: 2rem;
+
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+
+.first-button{
+    background-color: #171A20CC;
+    color: #FFFFFFA6;
+}
+
+.last-button{
+    background-color: #FFFFFFA6 ;
+    color: #171A20CC;
+}
+
+
+.paralax {
+    background-image: url(../images/Desktop-ModelY.jpg);
+    height: 100vh;
+    background-size: cover;
+
+    background-position-x: center;
+    background-position-y: center;
+    /* background-position-y: 135vh; */
+
+    background-attachment: fixed;
+
+    /* fazendo ficar na mesma posição fixa, mas com opacidade e com um z-index abaixo */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.paralax-model-x {
+    background-image: url(../images/Desktop-ModelX.jpg);
+    top: 100vh;
+}
+.paralax-model-3 {
+    background-image: url(../images/Desktop-Model3.jpg);
+    top: 200vh;
+}
+
+.paralax-model-s {
+    background-image: url(../images/Desktop-ModelS.jpg);
+    top: 300vh;
+}
+
+.paralax-solar-roof {
+    background-image: url(../images/Desktop-SolarRoof.jpg);
+    top: 400vh;
+}
+
+.paralax-solar-panels {
+    background-image: url(../images/Desktop-SolarPanels.jpg);
+    top: 500vh;
+}
+
+.paralax-accessories {
+    background-image: url(../images/Desktop-Accessories.jpg);
+    top: 600vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: .8rem;
+    font-weight: 500;
+    color: #171A20CC;
+
+    margin-bottom: 1vh;
+}
+
+footer span {
+    margin-left: 1vw;
+}

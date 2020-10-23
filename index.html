@@ -6,9 +6,11 @@
     <!-- <title>Electric Cars, Solar & Clean Energy | Tesla</title> -->
     <title>Tesla</title>
 
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/images/favicon-196x196.png">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 </head>
@@ -16,25 +18,32 @@
     <main>
 
         <header>
-            <img src="./assets/images/logo.png" alt="">
+            <a href=""><img src="./assets/images/logo.png" alt=""></a>
             <nav>
                 <ul>
-                    <li><a href="#">MODEL S</a></li>
-                    <li><a href="#">MODEL 3</a></li>
+                    <!-- <li><a href="#">MODEL Y</a></li>
                     <li><a href="#">MODEL X</a></li>
-                    <li><a href="#">MODEL Y</a></li>
+                    <li><a href="#">MODEL 3</a></li>
+                    <li><a href="#">MODEL S</a></li>
                     <li><a href="#">SOLAR ROOF</a></li>
-                    <li><a href="#">SOLAR PANELS</a></li>
+                    <li><a href="#">SOLAR PANELS</a></li> -->
+                    <li><span onclick="document.querySelector('.paralax-model-y').scrollIntoView({ behavior:'smooth'});">MODEL Y</span></li>
+                    <li><span onclick="document.querySelector('.model-x').scrollIntoView({ behavior:'smooth'});">MODEL X</span></li>
+                    <li><span onclick="document.querySelector('.model-3').scrollIntoView({ behavior:'smooth'});">MODEL 3</span></li>
+                    <li><span onclick="document.querySelector('.model-s').scrollIntoView({ behavior:'smooth'});">MODEL S</span></li>
+                    <li><span onclick="document.querySelector('solar-roof').scrollIntoView({ behavior:'smooth'});">MODEL X</span></li>
+                    <li><span onclick="document.querySelector('.solar-panels').scrollIntoView({ behavior:'smooth'});">MODEL X</span></li>
                 </ul>
             </nav>
+            <i class="material-icons">menu</i>
         </header>
 
-        <section class="paralax"></section>
+        <section class="paralax paralax-model-y"></section>
 
-        <section class="model-y">
+        <section class=" sessao model-y" >
             <div class="section-title">
                 <h1>Model Y</h1>
-                <h3>Order Online for Touchless Delivery</h3>
+                <h3>Order Online for <a href="#">Touchless Delivery</a></h3>
             </div>
             <div class="section-buttons">
                 <a href="#" class="first-button">Custom order</a>
@@ -42,12 +51,12 @@
             </div>
         </section>
 
-        <section class="paralax"></section>
+        <section class="paralax paralax-model-x"></section>
         
-        <section class="model-x">
+        <section class=" sessao model-x">
             <div class="section-title">
                 <h1>Model X</h1>
-                <h3>Order Online for Touchless Delivery</h3>
+                <h3>Order Online for <a href="#">Touchless Delivery</a></h3>
             </div>
             <div class="section-buttons">
                 <a href="#" class="first-button">Custom order</a>
@@ -55,12 +64,12 @@
             </div>
         </section>
 
-        <section class="paralax"></section>
+        <section class="paralax paralax-model-3"></section>
 
-        <section class="model-3">
+        <section class=" sessao model-3">
             <div class="section-title">
                 <h1>Model 3</h1>
-                <h3>Order Online for Touchless Delivery</h3>
+                <h3>Order Online for <a href="#">Touchless Delivery</a></h3>
             </div>
             <div class="section-buttons">
                 <a href="#" class="first-button">Custom order</a>
@@ -68,12 +77,12 @@
             </div>
         </section>
 
-        <section class="paralax"></section>
+        <section class="paralax paralax-model-s"></section>
 
-        <section class="model-s">
+        <section class=" sessao model-s">
             <div class="section-title">
                 <h1>Model S</h1>
-                <h3>Order Online for Touchless Delivery</h3>
+                <h3>Order Online for <a href="#">Touchless Delivery</a></h3>
             </div>
             <div class="section-buttons">
                 <a href="#" class="first-button">Custom order</a>
@@ -81,9 +90,9 @@
             </div>
         </section>
         
-        <section class="paralax"></section>
+        <section class="paralax paralax-solar-roof"></section>
 
-        <section class="solar-roof>
+        <section class="sessao solar-roof">
             <div class="section-title">
                 <h1>Only $1.49/Watt for Solar on Existing Roofs</h1>
                 <h3>Lowest Cost in America - Money-back guarantee</h3>
@@ -94,9 +103,9 @@
             </div>
         </section>
         
-        <section class="paralax"></section>
+        <section class="paralax paralax-solar-panels"></section>
         
-        <section class="solar-panels">
+        <section class=" sessao solar-panels">
             <div class="section-title">
                 <h1>Solar for New Roofs</h1>
                 <h3>Solar Roof Costs Less Than a New Roof Plus Solar Panels</h3>
@@ -107,9 +116,9 @@
             </div>
         </section>
 
-        <section class="paralax"></section>
+        <section class="paralax paralax-accessories"></section>
 
-        <section class="Accessories">
+        <section class=" sessao accessories">
             <div class="section-title">
                 <h1>Accessories</h1>
                 <h3>Solar Roof Costs Less Than a New Roof Plus Solar Panels</h3>
